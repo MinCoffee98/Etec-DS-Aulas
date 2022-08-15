@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: rgb(134, 126, 126);
+    font-size: 30px;
+    font-family: 'cambria';
+    
+}
+
+.nome{
+    color: rgb(38, 0, 255);
+}
+.idade{ 
+    color: rgb(255, 0, 0);
+}
+.email{
+    color: rgb(31, 206, 7);
+}

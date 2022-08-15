@@ -1,0 +1,72 @@
+html {
+    background-image: url(../img/impala.jpg);
+    background-position-x: center;
+    font-family: consolas;
+    font-size: 25px;
+    text-align: center;
+    color: #f1f1f1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+
+.div1, .div2 {
+    border: 3px rgb(28, 38, 39);
+    border-style: dashed;
+    background-color: rgba(104, 180, 163, 0.182);
+    border-radius: 30%;
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+    padding: 5px;
+    
+}
+
+
+.boxes {
+    margin: 50px 50px 50px 50px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(254, 190, 218);
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 5px rgba(70, 69, 69, 0.589);
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    margin: 30px 50px 30px 50px !important;
+  }
+  
+
+  .flex-container > div {
+    background: rgb(248, 181, 152);
+    background: linear-gradient(90deg, rgb(254, 149, 221) 0%, rgba(238, 162, 251, 0.544) 35%, rgb(249, 211, 155) 100%);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0px 10px 20px #d867fbfc;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-grow: 2;
+
+}
+
+.flex-container .divx{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.589);
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-grow: 2;
+}
