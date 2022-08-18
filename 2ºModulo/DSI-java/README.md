@@ -1,4 +1,4 @@
-##  DS I ( Desenvolvimento de Sistemas I )
+# Desenvolvimento de Sistemas I 
 
 Repositório das aulas de Desenvolvimento de Sistemas I sob orientação do Prof° Thiago Gervásio.
 <div align="center">
