@@ -1,0 +1,23 @@
+body {
+   
+    background-image: url(../img/back.jpg);
+    font-family: 'cochin';
+
+}
+
+ul {
+    color: deeppink;
+}
+
+#area{
+  color-scheme: #202022;
+}
+
+#form {
+    border: 1px solid #0000;
+    height: 28px;
+    padding-left: 5px;
+    color: hsl(318, 98%, 56%);
+    width: 100%;  
+    
+}
