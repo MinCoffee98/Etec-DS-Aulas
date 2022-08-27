@@ -5,23 +5,27 @@
 </section>
 
 <section id= "area">
-    <form>
+    <form action = "dados-contato.php" method= "post">
         <div id= "form">
             <div> <label> Nome </label> </div>
-                <input type = " text " placeholder = "Digite seu nome"/>     
+                <input type = "text " name= "txNome" placeholder = "Digite seu nome"/>     
         
             <div> <label> Gênero </label> </div>
-                <input type = "radio" name = "rGenero"/> Masculino
-                <input type = "radio" name = "rGenero"/> Feminino
+                <input type = "radio" name = "rGenero" value = "Masculino"/> Masculino
+                <input type = "radio" name = "rGenero" value = "Feminino"/> Feminino
         
             <div> <label> E-mail </label> </div>
-                <input type = "email" placeholder = "Digite seu e-mail"/>
+                <input type = "email" name= "txEmail"placeholder = "Digite seu e-mail"/>
         
             <div> <label for= "fassunto"> Assunto </label> </div>
-                <input type = "text" id= "fassunto"placeholder = "Digite o assunto"/>
+                <input type = "text" name= "txAssunto" id= "fassunto"placeholder = "Digite o assunto"/>
             
             <div>  <label> Mensagem </label> </div>
-                <textarea placeholder = "Digite sua mensagem" ></textarea>
+                <textarea name= "txMensagem"placeholder = "Digite sua mensagem" ></textarea>
+            <div>
+                <input type = "Submit" class= "bt" values= " " />
+            </div>
         </div>
+
     </form>
 </section>
