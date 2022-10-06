@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/Factory/ConnectionFactory.java</file>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/Factory/TestaConexao.java</file>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/projetoisa/ProjetoIsa.java</file>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/Modelo/usuario.java</file>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/Dao/UsuarioDao.java</file>
-            <file>file:/C:/Users/CAMARGO/Documents/NetBeansProjects/ProjetoIsa/src/Gui/UsuarioGui.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

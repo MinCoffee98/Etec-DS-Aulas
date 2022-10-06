@@ -20,8 +20,7 @@ public class UsuarioDao {
  
     public void adiciona(usuario usuario){ 
  
-        String sql ="INSERT INTO usuario(nome,cpf,email,telefone) 
-        VALUES(,,,)";
+        String sql = "INSERT INTO usuario VALUES(null,?,?,?,?)";
 
          try { 
  
