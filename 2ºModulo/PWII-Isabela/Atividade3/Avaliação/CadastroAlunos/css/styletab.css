@@ -1,0 +1,76 @@
+.consultaAlunos {
+    padding: 2em 0;
+    background-color: #000000af;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, rgba(60, 74, 83, 0), #0f93e5, rgba(60, 74, 83, 0)) 1;
+    overflow: scroll;
+    max-height: 35em;
+}
+
+.consultaAlunos::-webkit-scrollbar {
+    max-width: 1px;
+    max-height: 6px;
+}
+
+.consultaAlunos::-webkit-scrollbar-track {
+    background: rgba(187, 187, 187, 0);
+}
+
+.consultaAlunos::-webkit-scrollbar-thumb {
+    background-color: #4242422f;
+    border-radius: 5px;
+}
+
+.consultaAlunos::-webkit-scrollbar-button,
+.consultaAlunos::-webkit-scrollbar-corner {
+    background-color: #00000000;
+}
+
+
+table {
+    max-width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: clamp(1em, 1vw, 1.5em);
+    text-align: center;
+}
+
+table thead {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Asap Condensed';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-color: #403a88c5;
+}
+
+table thead tr th {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+table tbody tr td {
+    text-align: center;
+    padding: 15px;
+    background-color: #2e2b2ba6;
+    border-radius: 5px;
+}
+
+table tbody tr td:nth-child(3),
+table tbody tr td:nth-child(6) {
+    width: 15%;
+}
+
+table tbody tr td:nth-child(9) a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .2s ease-in;
+}
+
+table tbody tr td:nth-child(9) a:hover {
+    color: #7e40a4;
+    transition: all .2s ease-in;
+}

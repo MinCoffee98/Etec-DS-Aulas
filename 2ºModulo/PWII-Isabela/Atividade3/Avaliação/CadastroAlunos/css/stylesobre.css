@@ -1,0 +1,55 @@
+.sobre {
+    width: 60%;
+    padding: 1.5em 3em;
+    margin: 2% auto;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+
+    color: #3e585a;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.25) 0%, rgba(162, 162, 162, 0.25) 50%, rgba(255, 255, 255, 0.25) 100%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sobre h1,
+.sobre h2 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.8em;
+}
+
+.sobre p {
+    font-size: 1.2em;
+    padding-right: 5em;
+}
+
+.sobre div.text {
+    width: 50%;
+}
+
+.sobre div.image{
+    width: 50%;
+}
+
+.infos {
+    padding-left: 2em;
+    font-style: italic;
+    color: rgb(7, 7, 7);
+}
+
+@media (max-width: 1200px) {
+
+    .sobre{
+        max-width: 90%;
+    }
+
+    .sobre div{
+        min-width: 100%;
+    }
+
+}
